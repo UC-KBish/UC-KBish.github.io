@@ -1,11 +1,12 @@
 {
+  "homepage": "https://UC-KBish.github.io/UC-KBish.github.io",
   "name": "myfirstreactapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
