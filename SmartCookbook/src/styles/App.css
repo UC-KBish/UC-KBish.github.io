@@ -1,0 +1,138 @@
+html,
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  /* font-size: 2vw; */
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #FFFFFFC0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+.button {
+  margin: 1rem;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  background-color: #66a6bc;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1 1 auto;
+  top: 0;
+}
+
+.flexVerticallyAlligned {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  background-color: #FFFFFFC0;
+  z-index: 10;
+  position: sticky;
+  top: 0;
+}
+
+#menu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  transition: left 0.3s ease;
+  z-index: 100;
+}
+
+#UserContainer {
+  display: flex;
+  background-color: #e8e8e8;
+  position: absolute;
+  bottom: 0.25rem;
+  left: 0;
+  padding-right: 80%;
+  width: 100%;
+  z-index: 105;
+  color: #000000;
+}
+
+#UserPhoto {
+  height: 4ex;
+  margin: 1rem;
+  border-radius: 20%;
+}
+
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#menu ul li {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#menu-button,
+#menu-button-back {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  transition: right 0.3s ease;
+  background-color: #00000000;
+  border: none;
+  cursor: pointer;
+  height: 3rem;
+  z-index: 105;
+}
+
+#menu-button img,
+#menu-button-back img {
+  height: 80%;
+  margin-block: 10%;
+}
+
+#menu-button-back {
+  right: -2.5rem;
+}
+
+.blur {
+  position: absolute;
+  left: 0;
+  top: -100vh;
+  transition: backdrop-filter 0.3s ease;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  height: 100vh;
+}
+
+#tablet-bounding {
+  position: relative;
+  border-color: #000000;
+  border-width: 0.25rem;
+  border-style: solid;
+  background-color: #c0c0c0;
+  margin: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

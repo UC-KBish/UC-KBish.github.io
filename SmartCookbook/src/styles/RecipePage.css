@@ -1,0 +1,75 @@
+.recipe-instruction-card {
+    margin: 1rem;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    background-color: #a0a0a0;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    scroll-margin-top: 5rem;
+}
+
+.recipe-instruction-card > h2 {
+    margin: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.recipe-instruction-card > h3 {
+    margin: 0;
+    padding: 0;
+    scroll-margin-top: 5rem;
+}
+
+.recipe-instruction-card > div > img {
+    border-radius: 1rem;
+}
+
+.recipe-instruction-card > ul {
+    margin-top: 0;
+    padding-inline: 1rem;
+}
+
+.recipe-instruction-card > ul > li {
+    padding-bottom: 0.25rem;
+}
+
+.recipe-complete {
+    width: calc(100% - 2rem);
+}
+
+#screen-aura {
+    position: absolute;
+    top: 0;
+    left: 5rem;
+    width: calc(100% - 10rem);
+    height: 100%;
+    border-color: #c0c0ff;
+    border-width: 5rem;
+    box-shadow: 0 0 5rem 5rem#c0c0ff;;
+    border-width: 0.25rem;
+    border-style: solid;
+    filter: blur(1rem);
+  }
+
+  #voice-screen {
+    position: fixed;
+    z-index: 110;
+    top: calc(50% - 10rem);
+    /* width: calc(100% - 8rem); */
+    height: 10rem;
+  }
+
+  #voice-screen > p {
+    width: calc(100% - 1rem);
+    height: 50%;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 0.5rem;
+  }
+
+  #voice-screen > div {
+    background-color: #303030;
+    margin: 0;
+    width: 100%;
+    height: 0.125rem;
+  }

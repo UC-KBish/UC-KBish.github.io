@@ -1,0 +1,213 @@
+[
+    {
+        "Name": "Burger",
+        "Image": "Burger.jpg",
+        "Cuisine": "American",
+        "Ratings": 103,
+        "RatingVal": 3.8,
+        "Cooktime": 20,
+        "Description": "The juicy American burger is a tantalizing treat for your taste buds. The star of this culinary delight is the perfectly seasoned and cooked juicy patty, which is nestled between two halves of a soft and slightly toasted bun. As you take your first bite, the juicy goodness of the meat bursts forth, tantalizing your palate with its succulent flavor. But that's not all; the burger experience is elevated by an array of juicy toppings. Crisp lettuce, ripe tomato slices, and crunchy pickles add a refreshing contrast to the juicy meat. Onions, whether raw and tangy or caramelized to perfection, contribute their own unique juiciness to the mix. Of course, a juicy American burger often wouldn't be complete without a generous layer of melted cheese, which adds a creamy and savory element to the overall juiciness of the dish. And let's not forget the mouthwatering condiments like ketchup, mustard, and mayonnaise, which not only enhance the flavor but also infuse the burger with an additional layer of juiciness. With every bite, you experience a delightful explosion of juiciness, a harmonious blend of flavors and textures that has made the American burger an enduring favorite in the world of cuisine. Whether enjoyed with a side of crispy french fries or accompanied by a refreshing beverage, the juicy American burger is a culinary masterpiece that continues to satisfy cravings and bring joy to diners across the United States and beyond.",
+        "Cookware": [
+            "Grill, stovetop pan, or griddle",
+            "Spatula",
+            "Cooking thermometer (optional but recommended)"
+        ],
+        "Ingredients": [
+            "Ground beef (typically 80% lean, 20% fat is a good choice)",
+            "Burger buns",
+            "Salt and pepper",
+            "Optional toppings (lettuce, tomato, onion, cheese, pickles, condiments, etc.)"
+        ],
+        "Steps": [
+            {
+                "Title": "Prepare the Meat",
+                "Instruction": "Start by forming your ground beef into burger patties. You can season them with salt and pepper, but don't overwork the meat as it can make the burger tough. Shape them into patties that are slightly larger than your burger buns since they will shrink as they cook."
+            },
+            {
+                "Title": "Preheat the Cooking Surface",
+                "Instruction": "If you're grilling, preheat your grill to medium-high heat. If you're cooking on the stovetop, heat a pan or griddle over medium-high heat. Make sure the cooking surface is hot before you start cooking the burgers."
+            },
+            {
+                "Title": "Cook the Burgers",
+                "Instruction": "Place the burger patties on the hot cooking surface. For medium-rare to medium burgers, cook for about 3-4 minutes per side. For well-done burgers, cook for about 5-6 minutes per side. You can adjust the cooking time to achieve your desired level of doneness. Use a spatula to flip the burgers only once during cooking."
+            },
+            {
+                "Title": "Add Cheese (Optional)",
+                "Instruction": "If you want cheese on your burgers, add a slice of your favorite cheese to each patty during the last minute or so of cooking. This allows the cheese to melt and become gooey."
+            },
+            {
+                "Title": "Toast the Buns",
+                "Instruction": "While the burgers are cooking, you can toast the burger buns. Place the buns, cut-side down, on the grill or in a pan for a minute or until they are lightly toasted."
+            },
+            {
+                "Title": "Assemble the Burger",
+                "Instruction": "Start by forming your ground beef into burger patties. You can season them with salt and pepper, but don't overwork the meat as it can make the burger tough. Shape them into patties that are slightly larger than your burger buns since they will shrink as they cook."
+            },
+            {
+                "Title": "Add Toppings",
+                "Instruction": "Now, it's time to customize your burger with your favorite toppings. You can add lettuce, tomato slices, onion, pickles, condiments, or any other toppings you like."
+            },
+            {
+                "Title": "Top with the Bun",
+                "Instruction": "Finally, place the top halves of the burger buns on top of the assembled burger."
+            },
+            {
+                "Title": "Serve",
+                "Instruction": "Your burger is ready to be served! Enjoy it while it's hot."
+            }
+        ]
+    },
+    {
+        "Name": "Pizza",
+        "Cuisine": "Italian",
+        "Image": "Pizza.jpg",
+        "Ratings": 88,
+        "RatingVal": 3.9,
+        "Likes": 152,
+        "Cooktime": 15
+    },
+    {
+        "Name": "Taco",
+        "Cuisine": "Mexican",
+        "Image": "Taco.jpg",
+        "Ratings": 87,
+        "RatingVal": 4.2,
+        "Likes": 120,
+        "Cooktime": 25
+    },
+    {
+        "Name": "Pasta",
+        "Cuisine": "Italian",
+        "Image": "Pasta.jpg",
+        "Ratings": 56,
+        "RatingVal": 3.5,
+        "Likes": 88,
+        "Cooktime": 12
+    },
+    {
+        "Name": "Biryani",
+        "Cuisine": "Indian",
+        "Image": "Biryani.jpg",
+        "Ratings": 124,
+        "RatingVal": 4.0,
+        "Likes": 86,
+        "Cooktime": 45
+    },
+    {
+        "Name": "Steak",
+        "Cuisine": "American",
+        "Image": "Steak.jpg",
+        "Ratings": 68,
+        "RatingVal": 3.6,
+        "Likes": 135,
+        "Cooktime": 18
+    },
+    {
+        "Name": "Sushi",
+        "Cuisine": "Japanese",
+        "Image": "Sushi.jpg",
+        "Ratings": 92,
+        "RatingVal": 3.9,
+        "Likes": 92,
+        "Cooktime": 28
+    },
+    {
+        "Name": "Pad Thai",
+        "Cuisine": "Thai",
+        "Image": "Pad_Thai.jpg",
+        "Ratings": 109,
+        "RatingVal": 4.1,
+        "Likes": 78,
+        "Cooktime": 20
+    },
+    {
+        "Name": "Burrito",
+        "Cuisine": "Mexican",
+        "Image": "Burrito.jpg",
+        "Ratings": 77,
+        "RatingVal": 3.7,
+        "Likes": 95,
+        "Cooktime": 22
+    },
+    {
+        "Name": "Salmon",
+        "Cuisine": "Seafood",
+        "Image": "Salmon.jpg",
+        "Ratings": 135,
+        "RatingVal": 4.3,
+        "Likes": 87,
+        "Cooktime": 30
+    },
+    {
+        "Name": "Ramen",
+        "Cuisine": "Japanese",
+        "Image": "Ramen.jpg",
+        "Ratings": 42,
+        "RatingVal": 3.3,
+        "Likes": 112,
+        "Cooktime": 18
+    },
+    {
+        "Name": "Chicken Alfredo",
+        "Cuisine": "Italian",
+        "Image": "Chicken_Alfredo.jpg",
+        "Ratings": 81,
+        "RatingVal": 3.8,
+        "Likes": 78,
+        "Cooktime": 25
+    },
+    {
+        "Name": "Tandoori Chicken",
+        "Cuisine": "Indian",
+        "Image": "Tandoori_Chicken.jpg",
+        "Ratings": 116,
+        "RatingVal": 4.2,
+        "Likes": 103,
+        "Cooktime": 35
+    },
+    {
+        "Name": "Pho",
+        "Cuisine": "Vietnamese",
+        "Image": "Pho.jpg",
+        "Ratings": 98,
+        "RatingVal": 4.0,
+        "Likes": 88,
+        "Cooktime": 20
+    },
+    {
+        "Name": "Tofu Stir-Fry",
+        "Cuisine": "Asian",
+        "Image": "Tofu_Stir_Fry.jpg",
+        "Ratings": 72,
+        "RatingVal": 3.7,
+        "Likes": 69,
+        "Cooktime": 15
+    },
+    {
+        "Name": "Lasagna",
+        "Cuisine": "Italian",
+        "Image": "Lasagna.jpg",
+        "Ratings": 63,
+        "RatingVal": 3.5,
+        "Likes": 125,
+        "Cooktime": 40
+    },
+    {
+        "Name": "Chow Mein",
+        "Cuisine": "Chinese",
+        "Image": "Chow_Mein.jpg",
+        "Ratings": 54,
+        "RatingVal": 3.4,
+        "Likes": 94,
+        "Cooktime": 22
+    },
+    {
+        "Name": "Gyros",
+        "Cuisine": "Greek",
+        "Image": "Gyro.jpg",
+        "Ratings": 120,
+        "RatingVal": 4.1,
+        "Likes": 80,
+        "Cooktime": 18
+    }
+]

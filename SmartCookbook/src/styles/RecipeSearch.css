@@ -1,0 +1,29 @@
+#RecipeContainer {
+    display: flex;
+    margin: 1rem auto;
+}
+
+#RecipeContainer > div {
+    width: 50%;
+}
+
+.RecipeCard {
+    position: relative;
+    background-color: #a0a0a0;
+    border-radius: 5px;
+    overflow: hidden;
+    min-width: calc(100% - 2rem);
+    margin: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.save-for-later-button {
+    border: none;
+    cursor: pointer;
+    background-color: #00000000;
+}
+
+.save-for-later {
+    height: 2rem;
+    margin-block: 0.5rem;
+  }
